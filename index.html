@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>2048</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* extra styles for exact matching */
+    .heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .heading h1 {
+      margin: 0;
+    }
+    .score-container {
+      text-align: center;
+      padding: 10px 15px;
+    }
+    .instruction {
+      color: #776e65;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1>2048</h1>
+      <div class="score-container">
+        <div class="score-title">score</div>
+        <div id="score">0</div>
+      </div>
+    </div>
+    <p class="instruction">Join the numbers and get to the <strong>2048 tile!</strong></p>
+    <div class="grid"></div>
+    <div id="result" style="text-align:center; margin-top:20px; font-size:24px; color:#776e65;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
