@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () =>  {
     clearInterval(myTimer)
   }
 
-
+  //add colours
   //add colours
   function addColours() {
     for (let i=0; i < squares.length; i++) {
